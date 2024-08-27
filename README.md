@@ -33,3 +33,9 @@ This project develops a smart, cost-effective attendance logging system using No
 
 The system offers an efficient and reliable solution for automating attendance tracking, featuring real-time updates, easy management, and effective notifications.
 
+## Getting Started
+
+To replicate this analysis, clone the repository and follow the instructions provided in the `setup.md` file.
+
+```bash
+git clone https://github.com/vikask-iitg/RFID-Based-Attendance-Monitoring-System-using-IoT.git
