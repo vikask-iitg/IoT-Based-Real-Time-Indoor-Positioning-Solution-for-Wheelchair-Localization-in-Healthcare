@@ -38,4 +38,4 @@ The system significantly improves hospital operations by enabling precise tracki
 To replicate this analysis, clone the repository and follow the instructions provided in the `setup.md` file.
 
 ```bash
-git clone https://github.com/vikask-iitg/RFID-Based-Attendance-Monitoring-System-using-IoT.git
+git clone https://github.com/vikask-iitg/IoT-Based-Real-Time-Indoor-Positioning-Solution-for-Wheelchair-Localization-in-Healthcare.git
