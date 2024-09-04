@@ -4,35 +4,34 @@
 ![IoT Circuit Diagram](https://github.com/user-attachments/assets/c30aa2fb-9404-4a3f-ad90-6838b03910fc)
 
 
-## Overview
+# Advanced Indoor Positioning System for Wheelchairs
 
-This project develops a smart, cost-effective attendance logging system using NodeMCU and RFID sensors. It automates attendance tracking for environments like schools and workplaces, enhancing accuracy and convenience.
+This project develops an advanced indoor positioning system for tracking wheelchairs in a multi-floor hospital using IoT-based RFID technology. It ensures real-time tracking and reporting of wheelchairs' locations in terms of room and floor numbers, enhancing operational efficiency and patient service.
 
 ## Objectives
 
-- **RFID Identification:** Use RFID sensors for quick and reliable identification.
-- **Wireless Connectivity:** Connect via NodeMCU's Wi-Fi for real-time data storage.
-- **User Interface:** Provide an intuitive web or mobile app for managing attendance.
-- **Notifications:** Send alerts and reminders to administrators and attendees.
+- **RFID Tracking**: Utilize RFID sensors and tags for accurate and real-time tracking of wheelchairs.
+- **Location Reporting**: Provide wheelchair locations in terms of room numbers and floor levels in a four-floor hospital.
+- **User Interface**: Design an intuitive and scalable UI for managing and displaying tracking data, accommodating multiple wheelchairs.
 
 ## Features
 
-- **RFID Sensors:** Automatically logs attendance by reading RFID cards or tags.
-- **NodeMCU:** Acts as the main controller with Wi-Fi connectivity.
-- **Real-time Data:** Stores data on a cloud platform (Google Sheets).
-- **Feedback:** Buzzer and LEDs provide immediate confirmation of actions.
-- **Alerts:** Sends automatic notifications to relevant users.
+- **RFID Sensors**: Track wheelchairs by reading RFID tags placed on them and sensors installed at room entries and exits.
+- **Indoor Positioning**: Report locations based on a unique floormap with rotational adjustments for each floor.
+- **UI Design**: A single, scalable interface for tracking data management and display, designed for ease of use and adaptability.
+- **Floor Mapping**: Each floor has a unique map with five asymmetric rooms, rotated by 90° from the previous floor’s layout.
 
 ## Components
 
-- **NodeMCU:** Main controller board with Wi-Fi.
-- **RFID Sensor:** Reads RFID card IDs.
-- **Buzzer & LEDs:** Actuators for feedback.
-- **Cloud Storage:** Uses Google Sheets for data management.
+- **RFID Sensors**: Installed at room entry and exit points.
+- **RFID Tags**: Attached to wheelchairs for identification.
+- **User Interface**: Developed to manage and visualize tracking data efficiently.
+- **Indoor Mapping**: Custom-designed floormaps for accurate location reporting.
 
 ## Conclusion
 
-The system offers an efficient and reliable solution for automating attendance tracking, featuring real-time updates, easy management, and effective notifications.
+The system significantly improves hospital operations by enabling precise tracking of wheelchairs, leading to better equipment management and timely service. The intuitive UI ensures easy data management and scalability, enhancing overall operational efficiency.
+
 
 ## Getting Started
 
